@@ -1,0 +1,17 @@
+.cases-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .cases-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cases-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
